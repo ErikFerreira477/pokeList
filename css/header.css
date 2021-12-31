@@ -1,0 +1,68 @@
+header {
+    font-family: PokemonSolid, sans-serif;
+    letter-spacing: 3px;
+    font-size: 25px;
+    box-shadow: 2px 4px 5px black;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item{
+    list-style: none;
+    margin-right: 2rem;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.icon {
+    height: 60px;
+}
+
+.item a, .itemClose a{
+    -webkit-text-fill-color: rgb(250, 188, 61);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+}
+
+.filterItem{
+    list-style: none;
+    cursor: pointer;
+    margin-left: -15px;
+    margin-right: 2rem;
+}
+
+.itemClose{
+    list-style: none;
+    cursor: pointer;
+    margin-left: -15px;
+    margin-bottom: 8px;
+    margin-right: 3rem;
+}
+
+#input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    margin-right: -15px;
+    margin-bottom: 20px;
+    margin-left: 3rem;
+    padding: 10px;
+    font-size: 18px;
+    font-family: PokemonSolid, sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.item:first-child {
+    margin: 10px auto -10px 1rem;
+}
+
+.hover:hover{
+    text-shadow: 1px 3px 3px rgb(250, 188, 61);
+}

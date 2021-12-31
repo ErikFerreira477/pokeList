@@ -1,0 +1,33 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.modal>div {
+    width: 550px;
+    margin: 10% auto;
+    background-color: rgba(255, 214, 99);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+h2 {
+    font-family: PokemonSolid, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    -webkit-text-fill-color: rgb(250, 188, 61);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+}
